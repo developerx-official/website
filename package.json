@@ -1,33 +1,31 @@
 {
-  "name": "dex-website",
+  "name": "vue-dexapp",
   "version": "0.1.0",
   "private": true,
-  "license": "MIT",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "@heroicons/react": "^1.0.6",
-    "framer-motion": "^6.2.10",
+    "core-js": "^3.8.3",
     "glitched-writer": "^2.0.29",
-    "next": "12.1.5",
-    "next-themes": "^0.1.1",
-    "react": "18.0.0",
-    "react-dom": "18.0.0",
-    "react-typed": "^1.2.0"
+    "vue": "^3.2.13",
+    "vue-glitched-writer": "^1.2.2",
+    "vue-router": "^4.0.3"
   },
   "devDependencies": {
-    "@types/node": "17.0.23",
-    "@types/react": "18.0.3",
-    "@types/react-dom": "18.0.0",
-    "autoprefixer": "^10.4.4",
-    "eslint": "8.13.0",
-    "eslint-config-next": "12.1.5",
-    "postcss": "^8.4.12",
-    "tailwindcss": "^3.0.24",
-    "typescript": "4.6.3"
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-typescript": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "@vue/devtools": "^6.1.4",
+    "@vue/eslint-config-typescript": "^9.1.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "typescript": "~4.5.5"
   }
 }
