@@ -12,8 +12,6 @@ export default {
         "Loading... Please wait.",
         "",
         "Welcome to DevOS [v1.3.2]",
-        "",
-        "PIZZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
       ],
       options: {
         html: true,
